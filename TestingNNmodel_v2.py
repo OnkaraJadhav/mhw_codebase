@@ -183,3 +183,5 @@ y_pred = model.predict(X_test)
 from sklearn.metrics import r2_score 
 print("Coefficient of determination (R2):",r2_score(y_test, y_pred))
 print('RMSE_ang:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+
+#%%
